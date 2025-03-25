@@ -1,7 +1,6 @@
 const fs= require("fs")
 const {program } = require("commander")
 const path = require("path")
-const { todo } = require("node:test")
 
 
 const todosFilePath = path.join(__dirname,"todos.json")
